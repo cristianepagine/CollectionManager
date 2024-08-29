@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">StarWars Collectios</string>
+    <string name="cadastrar_editar">"Register/Edit "</string>
+    <string name="ordenacao">ordenacao</string>
+    <string name="nome_do_personagem_obrigatorio">Character name is required</string>
+    <string name="preco_de_aquisicao_obrigatorio">Price is mandatory</string>
+    <string name="data_de_aquisicao_obrigatoria">Purchase date is mandatory</string>
+    <string name="selecione_a_condicao">Select condition</string>
+    <string name="campos_limpos">Clean fields</string>
+    <string name="item_excluido_com_sucesso">Item deleted successfully</string>
+    <string name="colecoes_star_wars">"StarWars Collections "</string>
+    <string name="item_editado_com_sucesso">Item edited successfully</string>
+    <string name="item_adicionado_com_sucesso">Item added successfully</string>
+    <string name="adicionar">Add</string>
+    <string name="sobre">About</string>
+    <string name="excluir">Delete</string>
+    <string name="editar">Edit</string>
+    <string name="salvar">Save</string>
+    <string name="limpar">Clean</string>
+    <string name="nome_aluno">Student Name: Cristiane Pagine</string>
+    <string name="curso">Course: JAVA Specialization</string>
+    <string name="email">E-mail: cristianepagine@utfpr.edu.br</string>
+    <string name="descricao_app">Star Wars collection</string>
+    <string name="nome_utfpr">Federal Technological University of Paraná</string>
+    <string name="colecao">"Collection: "</string>
+    <string name="personagem">"Character:   "</string>
+    <string name="data_aquisicao">"Purchase Date:  "</string>
+    <string name="preco_aquisicao">"Price: "</string>
+    <string name="desejo">Desire</string>
+    <string name="condicao">Condition</string>
+    <string name="novo">New</string>
+    <string name="usado">Used</string>
+    <string name="personagem_nome">Name of charachter</string>
+    <string name="preaquisicao">Price</string>
+    <string name="datahint">dd/mm/aaaa</string>
+    <string name="voltar">Voltar</string>
+    <string name="aviso">Warning</string>
+    <string name="ok">OK</string>
+    <string name="sim">Yes</string>
+    <string name="nao">No</string>
+    <string name="confirmacao">Confirmation</string>
+    <string name="deseja_excluir">Do you want to delete?</string>
+    <string name="novo_item">New Item</string>
+    <string name="editar_item">Edit Item</string>
+
+
+    <!-- Arrays existentes -->
+    <string-array name="colecao_array">
+        <item>Black Series</item>
+        <item>Vintage</item>
+        <item>Funko</item>
+    </string-array>
+
+
+</resources>

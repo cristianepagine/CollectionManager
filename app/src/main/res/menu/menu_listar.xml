@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_adicionar"
+        android:icon="@drawable/add"
+        android:title="@string/adicionar"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/menuItemOrdenacao"
+        android:icon="@drawable/ic_action_ascendente"
+        android:title="@string/ordenacao"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_sobre"
+        android:title="@string/sobre"
+        app:showAsAction="never" />
+</menu>

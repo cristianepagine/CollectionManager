@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+
+
+        <!-- Nome do aluno -->
+        <TextView
+            android:id="@+id/nome_aluno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="@string/nome_aluno"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <!-- Curso -->
+        <TextView
+            android:id="@+id/curso"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="@string/curso"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <!-- E-mail -->
+        <TextView
+            android:id="@+id/email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="@string/email"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <!-- Descrição do aplicativo -->
+        <TextView
+            android:id="@+id/descricao_app"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="@string/descricao_app"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <!-- Nome da UTFPR -->
+        <TextView
+            android:id="@+id/nome_utfpr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nome_utfpr"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <!-- Logo da UTFPR -->
+        <ImageView
+            android:id="@+id/logo_utfpr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logo_utfpr"
+            android:contentDescription="Logo UTFPR"
+            android:layout_marginBottom="16dp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+</ScrollView>

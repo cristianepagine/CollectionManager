@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Coleções StarWars</string>
+    <string name="cadastrar_editar">Cadastrar/Editar</string>
+    <string name="ordenacao">ordenacao</string>
+    <string name="nome_do_personagem_obrigatorio">Nome do personagem é obrigatório</string>
+    <string name="preco_de_aquisicao_obrigatorio">Preço de aquisição é obrigatório</string>
+    <string name="data_de_aquisicao_obrigatoria">Data de aquisição é obrigatória</string>
+    <string name="selecione_a_condicao">Selecione a condição</string>
+    <string name="campos_limpos">Campos limpos</string>
+    <string name="item_excluido_com_sucesso">Item excluído com sucesso</string>
+    <string name="colecoes_star_wars">Coleções Star Wars</string>
+    <string name="item_editado_com_sucesso">Item editado com sucesso</string>
+    <string name="item_adicionado_com_sucesso">Item adicionado com sucesso</string>
+    <string name="adicionar">Adicionar</string>
+    <string name="sobre">Sobre</string>
+    <string name="excluir">Excluir</string>
+    <string name="editar">Editar</string>
+    <string name="salvar">Salvar</string>
+    <string name="limpar">Limpar</string>
+    <string name="nome_aluno">Nome do Aluno: Cristiane Pagine</string>
+    <string name="curso">Curso: Especialização JAVA</string>
+    <string name="email">E-mail: cristianepagine@utfpr.edu.br</string>
+    <string name="descricao_app">Gerenciamento de coleções de Star Wars.</string>
+    <string name="nome_utfpr">Universidade Tecnológica Federal do Paraná</string>
+    <string name="colecao">"Coleção: "</string>
+    <string name="personagem">"Personagem: "</string>
+    <string name="data_aquisicao">"Data de Aquisição: "</string>
+    <string name="preco_aquisicao">"Preço de Aquisição: "</string>
+    <string name="desejo">Desejo</string>
+    <string name="condicao">Condiçao</string>
+    <string name="novo">Novo</string>
+    <string name="usado">"Usado "</string>
+    <string name="personagem_nome">Nome do Personagem</string>
+    <string name="preaquisicao">Preço aquisição</string>
+    <string name="datahint">dd/mm/aaaa</string>
+    <string name="voltar">Voltar</string>
+    <string name="aviso">Aviso</string>
+    <string name="ok">OK</string>
+    <string name="sim">Sim</string>
+    <string name="nao">Não</string>
+    <string name="confirmacao">Confirmação</string>
+    <string name="deseja_excluir">Você deseja deletar?</string>
+    <string name="novo_item">New Item</string>
+    <string name="editar_item">Edit Item</string>
+
+
+    <!-- Arrays existentes -->
+    <string-array name="colecao_array">
+        <item>Black Series</item>
+        <item>Vintage</item>
+        <item>Funko</item>
+    </string-array>
+
+</resources>
