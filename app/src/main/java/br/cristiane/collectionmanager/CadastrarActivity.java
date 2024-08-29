@@ -24,7 +24,6 @@ import java.util.Calendar;
 import br.cristiane.collectionmanager.modelo.Colecao;
 import br.cristiane.collectionmanager.modelo.Item;
 import br.cristiane.collectionmanager.persistencia.ItemsDatabase;
-import br.cristiane.collectionmanager.utils.UtilsGUI;
 
 public class CadastrarActivity extends AppCompatActivity {
 
