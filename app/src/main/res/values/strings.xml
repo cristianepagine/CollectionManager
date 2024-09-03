@@ -44,7 +44,6 @@
     <string name="editar_item">Edit Item</string>
 
 
-    <!-- Arrays existentes -->
     <string-array name="colecao_array">
         <item>Black Series</item>
         <item>Vintage</item>

@@ -22,7 +22,7 @@ public abstract class ItemsDatabase extends RoomDatabase {
                     instance = Room.databaseBuilder(context,
                                                     ItemsDatabase.class,
                                                     "items_database")
-                                                    .build();
+                                                    .allowMainThreadQueries().build();
                 }
             }
         }

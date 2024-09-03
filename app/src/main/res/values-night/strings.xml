@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">StarWars Collection</string>
+    <string name="app_name">StarWars Collections</string>
     <string name="cadastrar_editar">Add/Edit</string>
     <string name="ordenacao">ordering</string>
     <string name="nome_do_personagem_obrigatorio">Character name is required</string>

@@ -8,11 +8,12 @@ import android.widget.ArrayAdapter;
 import android.widget.TextView;
 
 import java.util.ArrayList;
+import java.util.List;
 
 import br.cristiane.collectionmanager.modelo.Item;
 
 public class ItemAdapter extends ArrayAdapter<Item> {
-    public ItemAdapter(Context context, ArrayList<Item> items) {
+    public ItemAdapter(Context context, List<Item> items) {
         super(context, 0, items);
     }
 

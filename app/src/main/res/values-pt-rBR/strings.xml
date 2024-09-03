@@ -40,11 +40,10 @@
     <string name="nao">Não</string>
     <string name="confirmacao">Confirmação</string>
     <string name="deseja_excluir">Você deseja deletar?</string>
-    <string name="novo_item">New Item</string>
-    <string name="editar_item">Edit Item</string>
+    <string name="novo_item">Novo Item</string>
+    <string name="editar_item">" Editar Item"</string>
 
 
-    <!-- Arrays existentes -->
     <string-array name="colecao_array">
         <item>Black Series</item>
         <item>Vintage</item>

@@ -100,6 +100,12 @@ public class CadastrarActivity extends AppCompatActivity {
                 editTextDataAquisicao.setText(itemOriginal.getDataAquisicao());
                 editTextPrecoAquisicao.setText(String.valueOf(itemOriginal.getPrecoAquisicao()));
                 checkBoxDesejo.setChecked(itemOriginal.isDesejo());
+                // Adiciona a seleção da condição (Novo ou Usado)
+                if ("Novo".equals(itemOriginal.getCondicao())) {
+                    radioButtonNovo.setChecked(true);
+                } else if ("Usado".equals(itemOriginal.getCondicao())) {
+                    radioButtonUsado.setChecked(true);
+                }
             } else {
                 Log.e("CadastrarActivity", "Modo desconhecido: " + modo);  // Adicione este log para depuração
             }
@@ -142,7 +148,7 @@ public class CadastrarActivity extends AppCompatActivity {
         try {
             precoAquisicao = Double.parseDouble(precoAquisicaoStr);
         } catch (NumberFormatException e) {
-            // Se o preço não puder ser convertido, exiba uma mensagem de erro e saia
+            // Se o preço não puder ser convertido, exibe uma mensagem de erro
             Toast.makeText(this, "Preço inválido", Toast.LENGTH_SHORT).show();
             return;
         }
@@ -172,7 +178,7 @@ public class CadastrarActivity extends AppCompatActivity {
             // Insere o item no banco de dados
             long novoId = database.getItemDao().insert(item);
 
-            // Verifica se a inserção foi bem-sucedida
+            // Verifica se a inserção foi feita com sucesso
             if (novoId <= 0) {
                 Toast.makeText(this, "Erro ao salvar item", Toast.LENGTH_SHORT).show();
                 return; // Sai do método se houver um erro
@@ -187,22 +193,20 @@ public class CadastrarActivity extends AppCompatActivity {
 
         }else{
 
-                Item itemAlterado = new Item(colecao, personagemNome, dataAquisicao, precoAquisicao, desejo, condicao);
+            Item itemAlterado = new Item(colecao, personagemNome, dataAquisicao, precoAquisicao, desejo, condicao);
 
-                itemAlterado.setId(itemOriginal.getId());
+            itemAlterado.setId(itemOriginal.getId());
 
-                int quantidadeAlterada = database.getItemDao().update(itemAlterado);
+            int quantidadeAlterada = database.getItemDao().update(itemAlterado);
 
 
 
-                intent.putExtra(ID, itemAlterado.getId());
-            }
-
-            setResult(Activity.RESULT_OK, intent);
-            finish();
+            intent.putExtra(ID, itemAlterado.getId());
         }
 
-
+        setResult(Activity.RESULT_OK, intent);
+        finish();
+    }
 
     @Override
     public boolean onCreateOptionsMenu (Menu menu){
@@ -262,6 +266,7 @@ public class CadastrarActivity extends AppCompatActivity {
                 calendar.get(Calendar.DAY_OF_MONTH)
         ).show();
     }
+
     private void limparCampos () {
         spinnerColecao.setSelection(0);
         editTextPersonagem.setText("");
@@ -285,6 +290,7 @@ public class CadastrarActivity extends AppCompatActivity {
         }
         return true;
     }
+
     private boolean isCampoVazio (EditText campo, String mensagemErro){
         if (campo.getText().toString().trim().isEmpty()) {
             campo.setError(mensagemErro);
@@ -294,12 +300,8 @@ public class CadastrarActivity extends AppCompatActivity {
         return false;
     }
 
-
-
     public void cancelar(){
         setResult(Activity.RESULT_CANCELED);
         finish();
     }
 }
-
-
